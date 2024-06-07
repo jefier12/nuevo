@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+ /* box-sizing: border-box;*/
+  color: chocolate;
+}
+
+/*
+body {
+  background-color: mediumaquamarine;
+}*/
+
+
+#header{
+  width: 500px;
+  height: 250px;
+  background: red;
+}
+
+.item{
+  color:aqua;
+}
+
+h1{
+  color:blueviolet ;
+}
+
+p{
+  color: steelblue;
+}
+
+p > span{
+  color: black;
+}
+
+hr{
+  /*margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin: 40px 60px 80px 10px;
+  margin: 120px 200px;*/
+  margin: 20px 30px 40px;
+}
+.caja{
+  width: 200px ;
+  height: 150px;
+  background: red;
+  margin: 80px;
+  border: 10px solid  black;
+  color: #fff;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-bottom: 150px;
+  padding-left: 10px;
+}
+
+/*
+header nav ul li {
+  list-style: none; 
+}
+
+ul > li {
+  list-style: circle;
+}
+
+input[type="text"]{
+  padding: 20px;
+}
+*/
