@@ -3,47 +3,61 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-size: 15px;
+}
+
+.card{
+  width: 320px;
+  margin: 40px auto;
+  box-shadow: 5px 15px 15px #000;
+  border-radius: 10px;
+  padding: 0 0 30px;
+}
+
+.img{
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  height: 180px;
+  border-radius: 10px 10px 0 0;
+}
+
+.contenedor{
+  width: 90%;
+  margin: 0 auto
+}
+
+.titulo{
+  text-align: center;
+  color: rgb(161, 39, 63);
+  margin: 20px 0 10px;
+}
+
+
+.texto{
+  text-align: center;
+}
+
+.btn{
+  width: 100px;
+  color: white;
+  background: crimson;
+  display: block;
+  padding: 13px 0;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  
+}
 
 .goku{
-  display: block;
   width: 400px;
   margin: 0 auto;
-  filter: drop-shadow(0px 0px 15px yellow); 
-}
-
-.spidy{
-  width: 320px;
   display: block;
-  margin: 0 auto;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  box-shadow: 5px 5px 30px;
-}
-
-.caja{
-  background-color: rgb(234, 234, 226);
-  text-align: center;
-  width: 320px;
-  height: 270px;
-  margin: 0 auto;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  box-shadow: 5px 5px 30px;
-  text-align: center;
+  filter: drop-shadow(3px 6px 15px yellow  );
 
 }
-
-.boton{
-  width: 100px;
-  height: 30px;
-  background: rgb(196, 10, 47);
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 15px;
-  color: white;
-  border-radius: 5px 5px 5px 5px;
-}
-
-.rojo{
-  color: rgb(161, 39, 63);
-}
+  
